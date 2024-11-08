@@ -25,5 +25,6 @@ input_image = "Downloads/image_file.jpg"  # Replace with image file path
 pixel_size = [5, 10, 15, 20, 25, 30]  # Size of the pixels (adjust as needed)
 
 for size in pixel_size:
-    output_image = "Downloads/Pixelated_image_" + str(size) + ".jpg"  # Path to save the pixelated image
+    # Path to save the pixelated image
+    output_image = "Downloads/Pixelated_image_" + str(size) + ".jpg" 
     pixelate_image(input_image, output_image, size)
