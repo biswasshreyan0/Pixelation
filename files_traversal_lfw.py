@@ -11,5 +11,5 @@ def read_files_with_pathlib(path):
 
         # invoke pixelation code for each of these files
 
-read_files_with_pathlib('C:\\Users\\14085\\Documents\\G6_Science_Fair_School\\lfw-deepfunneled\\lfw-deepfunneled')
 # replace the given file path with the actual path
+read_files_with_pathlib('C:\\Users\\14085\\Documents\\G6_Science_Fair_School\\lfw-deepfunneled\\lfw-deepfunneled')
