@@ -23,7 +23,7 @@ def read_files_with_pathlib(path):
             print(str(file_path.parent) + "/" + str(file_path.stem) + "-result.jpg")
             run_yolo(file_path)
             counter += 1
-        if counter > 5:
+        if counter > 2000:
             break
 
         # invoke pixelation code for each of these files
