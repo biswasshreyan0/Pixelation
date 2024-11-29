@@ -28,7 +28,7 @@ def read_files_with_pathlib(path):
                 for label_info in image_labels:
                     all_labels.append(f"{image_identifier}: {label_info}")
             counter += 1
-        if counter > 50:
+        if counter > 2000:
             break
 
     # Save all labels to a single text file
